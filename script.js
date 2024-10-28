@@ -1,6 +1,6 @@
 // Backend URL (replace with your actual backend URL on Render)
 const backendUrl = "https://aes-image-encryption-backend1.onrender.com";
-
+fetch(`${backendUrl}/encrypt`, { method: "POST", body: formData });
 // Event listener for the Encrypt button
 document.getElementById('encrypt-btn').addEventListener('click', async function() {
     // Set up FormData for the encryption request
