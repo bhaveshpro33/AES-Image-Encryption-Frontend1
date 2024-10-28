@@ -1,6 +1,7 @@
 console.log("JavaScript is running!");
 
 const backendUrl = "https://aes-image-encryption-backend1.onrender.com";
+fetch(`${backendUrl}/your-endpoint`, { method: "POST", body: JSON.stringify(data) });
 
 const encryptBtn = document.getElementById('encrypt-btn');
 const decryptBtn = document.getElementById('decrypt-btn');
